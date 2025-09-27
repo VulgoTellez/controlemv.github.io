@@ -1,0 +1,35 @@
+/* ==============================
+   Personalização do Controle PS5
+   Gamepad Viewer
+   ============================== */
+
+/* Base do controle (imagem principal) */
+.controller.ps5.white {
+  background: url("https://seuusuario.github.io/PS5_Overlay/base.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Botão X (A no mapeamento do GV) */
+.ps5 .button.a.pressed {
+  background: url("https://seuusuario.github.io/PS5_Overlay/botao-x.png");
+  background-size: contain;
+}
+
+/* Botão O (B no mapeamento do GV) */
+.ps5 .button.b.pressed {
+  background: url("https://seuusuario.github.io/PS5_Overlay/botao-o.png");
+  background-size: contain;
+}
+
+/* Botão Quadrado (X no mapeamento do GV) */
+.ps5 .button.x.pressed {
+  background: url("https://seuusuario.github.io/PS5_Overlay/botao-quadrado.png");
+  background-size: contain;
+}
+
+/* Botão Triângulo (Y no mapeamento do GV) */
+.ps5 .button.y.pressed {
+  background: url("https://seuusuario.github.io/PS5_Overlay/botao-triangulo.png");
+  background-size: contain;
+}
